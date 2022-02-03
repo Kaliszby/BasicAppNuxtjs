@@ -50,9 +50,15 @@
           />
         </svg>
       </a>
-      <div>
-        <nuxt-link to="/admin" class="button button--black">admin</nuxt-link>
+      <div class="row">
+        <div>
+          <nuxt-link to="/admin" class="button button--black">admin</nuxt-link>
+        </div>
+        <div>
+          <nuxt-link to="/users" class="button button--black">users</nuxt-link>
+        </div>
       </div>
+
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">
           Welcome to your Nuxt Application
