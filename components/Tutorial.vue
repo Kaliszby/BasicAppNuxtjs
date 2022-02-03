@@ -50,6 +50,9 @@
           />
         </svg>
       </a>
+      <div>
+        <nuxt-link to="/admin" class="button button--black">admin</nuxt-link>
+      </div>
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">
           Welcome to your Nuxt Application
@@ -120,3 +123,30 @@ export default {
   name: 'NuxtTutorial',
 }
 </script>
+
+<style scoped>
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button--black {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.button--black:hover {
+  background-color: #555555;
+  color: white;
+}
+</style>
