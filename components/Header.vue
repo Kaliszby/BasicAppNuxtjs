@@ -14,7 +14,7 @@
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown text="User" right>
-          <b-dropdown-item href="#">Account</b-dropdown-item>
+          <b-dropdown-item href="/users">User</b-dropdown-item>
           <b-dropdown-item href="#">Settings</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
