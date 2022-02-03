@@ -1,0 +1,19 @@
+<template>
+  <div>
+    <h2>Hello User Page | Internal</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+      </tr>
+      <tr>
+        <td>นายa</td>
+      </tr>
+      <tr>
+        <td>นายb</td>
+      </tr>
+      <tr>
+        <td>นายc</td>
+      </tr>
+    </table>
+  </div>
+</template>
